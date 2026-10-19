@@ -82,3 +82,19 @@
  .client-name small{font-size:7px}
  .clients-section .section-heading{margin-bottom:24px}
 }
+
+/* Social-first portfolio additions */
+.instagram-art{position:relative;flex-direction:column;gap:10px;background:radial-gradient(ellipse at 50% 45%,#28344a 0%,#151c29 45%,#0d1118 100%);border-color:#354154}
+.instagram-mark{width:48px;height:48px;color:#d5e6ff;opacity:.9}
+.instagram-mark svg,.instagram-mini-icon svg{width:100%;height:100%;display:block}
+.instagram-graphic-title{font-size:clamp(48px,6vw,78px);font-weight:800;letter-spacing:-.09em;line-height:1;color:#eef4ff}
+.instagram-graphic-title span{color:#8ab5ec}
+.instagram-art .graphic-label{left:15px;right:48px;bottom:14px}
+.reel-play{position:absolute;right:15px;bottom:11px;color:#dceaff;font-size:20px}
+.client-social-link{display:inline-flex;align-items:center;gap:13px;margin-top:20px;padding:12px 16px;border:1px solid #303b4d;background:#101722;transition:background .2s,border-color .2s,transform .2s}
+.client-social-link:hover{background:#172235;border-color:#6987b4;transform:translateY(-2px)}
+.instagram-mini-icon{width:27px;height:27px;color:#b9d5ff}
+.client-social-link small{display:block;font:8px var(--mono);letter-spacing:1px;color:#8394ae;margin-bottom:2px}
+.client-social-link b{font-size:12px;font-weight:650;color:#e4edfb}
+.client-social-link b span{color:var(--sky);margin-left:8px}
+@media(max-width:760px){.instagram-art{aspect-ratio:16/9}.client-social-link{margin-top:18px}}
