@@ -98,3 +98,16 @@
 .client-social-link b{font-size:12px;font-weight:650;color:#e4edfb}
 .client-social-link b span{color:var(--sky);margin-left:8px}
 @media(max-width:760px){.instagram-art{aspect-ratio:16/9}.client-social-link{margin-top:18px}}
+
+
+/* Creator review slots — replace placeholder copy only with creator-approved feedback */
+.creator-review{margin:0 0 4px;padding:13px 13px 14px;border:1px solid #293444;background:linear-gradient(135deg,#111925,#0b0f15);border-radius:3px;cursor:inherit}
+.review-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:10px;border-bottom:1px solid #252f3e;font:8px var(--mono);letter-spacing:.9px;color:#a9bfdc}
+.review-status{color:#8995a7;font-size:7px;letter-spacing:.6px}
+.review-body{display:flex;align-items:flex-start;gap:11px;padding-top:12px}
+.review-avatar{flex:0 0 34px;width:34px;height:34px;object-fit:cover;border-radius:50%;border:1px solid #3a4b63;background:#182131}
+.review-creator-name{font-size:10px;font-weight:700;color:#e4ecf8;margin:0 0 3px}
+.review-quote{font-size:10px;line-height:1.65;color:#8995a7;margin:0}
+.creator-review[data-review-status="approved"]{border-color:#42644f;background:linear-gradient(135deg,#101d19,#0b1112)}
+.creator-review[data-review-status="approved"] .review-status{color:#9bd8b1}
+@media(max-width:760px){.creator-review{padding:12px}.review-heading{font-size:7px}.review-status{font-size:6px}}
