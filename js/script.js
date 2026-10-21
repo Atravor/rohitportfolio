@@ -79,3 +79,4 @@ document.addEventListener('click', event => {
 if (window.matchMedia('(max-width: 760px)').matches) {
   document.documentElement.style.scrollSnapType = 'y proximity';
 }
+ 
