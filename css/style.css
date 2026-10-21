@@ -115,4 +115,3 @@
 /* Review drafts are intentionally distinct from approved creator testimonials. */
 .creator-review[data-review-status="draft"]{border-color:#4a5362}
 .creator-review[data-review-status="draft"] .review-status{color:#d5b87a}
- 
