@@ -111,3 +111,7 @@
 .creator-review[data-review-status="approved"]{border-color:#42644f;background:linear-gradient(135deg,#101d19,#0b1112)}
 .creator-review[data-review-status="approved"] .review-status{color:#9bd8b1}
 @media(max-width:760px){.creator-review{padding:12px}.review-heading{font-size:7px}.review-status{font-size:6px}}
+
+/* Review drafts are intentionally distinct from approved creator testimonials. */
+.creator-review[data-review-status="draft"]{border-color:#4a5362}
+.creator-review[data-review-status="draft"] .review-status{color:#d5b87a}
